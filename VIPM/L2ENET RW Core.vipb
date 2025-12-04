@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-01 14:58:14" Creator="toddw" Comments="" ID="7bef7164af1991e266a6cf05a8bc697e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-04 16:45:42" Creator="toddw" Comments="" ID="683af830f41c84dc43bfa6af04107fb8">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_L2ENET_RW_Core</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>First Build</Release_Notes>
+      <Release_Notes>Added function for filter to BPF</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -245,7 +245,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F16E21219D82B2A90726167AA2982A95</GUID>
+      <GUID>8FA736EEB2B3752B33021089E9BE52B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -434,7 +434,7 @@
         <Path>..\src\Accessors\Write Statistcs.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61032D9783967D6842212B8C13BD3FA7</GUID>
+      <GUID>F1D7C8E4D8198B2CD68AF15B3E4B496F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -539,7 +539,7 @@
         <Path>..\src\Core\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14EAF28B8928219E3AF6E4628CD18B68</GUID>
+      <GUID>9561F7F3EA7B0A362E1827F5851CE482</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +602,21 @@
         <Path>..\src\Utilities\Update Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>084758E55434BD95A4BB2115E1EFB7D0</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Filter to BPF.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Utilities\Filter to BPF.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>1AE78700391434B341AC09406A6FE4A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
