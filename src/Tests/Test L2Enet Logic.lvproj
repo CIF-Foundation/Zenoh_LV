@@ -25,7 +25,6 @@
 				<Item Name="Ethernet_Parse_Build_CIF.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Enet Parse and Build/Ethernet_Parse_Build_CIF.lvlib"/>
 				<Item Name="Networking_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Networking/Networking_CIF_U.lvlib"/>
 			</Item>
-			<Item Name="trash_Filter.ctl" Type="VI" URL="../../../../L2ENET_RW_XNET/src/typedef/trash_Filter.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
