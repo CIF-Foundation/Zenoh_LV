@@ -1,0 +1,11 @@
+[package]
+name = "zenoh_labview"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "zenoh_lv_wrapper"
+crate-type = ["cdylib"]
+
+[dependencies]
+zenoh = "1.0.0"
