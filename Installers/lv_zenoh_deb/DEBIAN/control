@@ -1,0 +1,6 @@
+Package: lv-zenoh
+Version: 0.1.0.0
+Architecture: amd64
+Maintainer: todd.walter@domeautomation.com
+Description: This provides the required libraries to support communications over Zenoh from LabVIEW.
+Priority: optional

@@ -1,0 +1,4 @@
+chmod 777 /usr/lib/cif/libzenoh_lv_wrapper.so
+ln -s /usr/lib/cif/libzenoh_lv_wrapper.so /usr/lib/libzenoh_lv_wrapper.so
+
+ldconfig
