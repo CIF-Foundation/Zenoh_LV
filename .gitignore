@@ -20,3 +20,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Rust build output
+src/Wrapper/target/
