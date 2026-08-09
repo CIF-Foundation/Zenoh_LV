@@ -23,3 +23,7 @@ __pycache__/
 
 # Rust build output
 src/Wrapper/target/
+
+# IPK build artifacts
+Installers/staging/
+Installers/output/
