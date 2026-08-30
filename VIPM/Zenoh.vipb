@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-08-30 10:58:18" Creator="toddw" Comments="" ID="3ce3333689427063b59c94a8378cb6ee">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-08-30 13:20:41" Creator="toddw" Comments="" ID="dc593480f8310f0d508498e21ee409b5">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_Zenoh</Package_File_Name>
-    <Library_Version>0.1.2.1</Library_Version>
+    <Library_Version>0.1.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
