@@ -2,6 +2,8 @@
 name = "zenoh_labview"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/CIF-Foundation/Zenoh_LV"
 
 [lib]
 name = "zenoh_lv_wrapper"
