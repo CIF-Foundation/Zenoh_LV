@@ -79,6 +79,9 @@ done
 # Remove artifacts from older custom packaging, if present.
 rm -f "${IPK_DIR}/debian-binary" "${IPK_DIR}/data.tar.gz" "${IPK_DIR}/control.tar.gz"
 
+# Repository placeholders (e.g. usr/lib/cif/.gitkeep) must not install on the target.
+find "${IPK_DIR}" -name '.gitkeep' -type f -delete
+
 PKG="$(grep '^Package:' "${CONTROL_DIR}/control" | awk '{print $2}')"
 VERSION="$(grep '^Version:' "${CONTROL_DIR}/control" | awk '{print $2}')"
 ARCH="$(grep '^Architecture:' "${CONTROL_DIR}/control" | awk '{print $2}')"
