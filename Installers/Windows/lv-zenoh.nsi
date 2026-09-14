@@ -10,7 +10,7 @@
 
 !define PRODUCT_NAME "LabVIEW Zenoh"
 
-!define PRODUCT_VERSION "0.1.0"
+!define PRODUCT_VERSION "0.1.1"
 
 !define PRODUCT_PUBLISHER "Dome Automation"
 
